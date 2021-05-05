@@ -15,7 +15,7 @@ from .Database import insert_new_stock
 from .Database import add_new_col
 from .metrics import specific_investing_calc
 
-conn = sqlite3.connect('stocks.db') # creating a table for the key statistics
+conn = sqlite3.connect('stocks.db')  # creating a table for the key statistics
 c = conn.cursor()
 
 """
@@ -30,14 +30,14 @@ quandl_errors = (TypeError, quandl.errors.quandl_error.NotFoundError, quandl.err
 class StockInformation:
 
     def __init__(self):
-        self.list_of_tick = self.get_all_tickers() # Calling func. to import all the stocks
-        self.create_database()                     # list_of_ticks -> Def. list of all the tickers
+        self.list_of_tick = self.get_all_tickers()  # Calling func. to import all the stocks
+        self.create_database()  # list_of_ticks -> Def. list of all the tickers
         self.calling_metric_func()
         self.graham_lynch_metrics()
 
     def get_all_tickers(self):
         with open('./grahamlynch/companylist.csv', 'rb') as csvfile:
-            file_of_tickers = csv.reader(csvfile, quotechar = '|')
+            file_of_tickers = csv.reader(csvfile, quotechar='|')
             all_tickers = []
 
             for ticker_row in file_of_tickers:
@@ -65,19 +65,20 @@ class StockInformation:
         self.current_ratio()
         self.debtasset_ratio()
         self.debtequity_ratio()
-        #self.eps_growth_rate()
+        # self.eps_growth_rate()
         self.market_cap()
 
-    def using_quandl(self, value): # ONLY using mean_values from quandl
+    def using_quandl(self, value):  # ONLY using mean_values from quandl
         warnings.simplefilter("ignore", category=RuntimeWarning)
         mean_values = value.values.mean()
         return mean_values
 
-    def db_validate(self, *args): # Updating or inserting info. from stocks
+    def db_validate(self, *args):  # Updating or inserting info. from stocks
         val, ticker, col_name = args
 
         database_search = check_for_metric(self.stock_DB, ticker)
-        db_list_of_parameters = [self.stock_DB, self.conn, val, ticker, col_name] # INFO that will be used for database_search
+        db_list_of_parameters = [self.stock_DB, self.conn, val, ticker,
+                                 col_name]  # INFO that will be used for database_search
 
         if not database_search:
             insert_new_stock(*db_list_of_parameters)
@@ -140,7 +141,7 @@ class StockInformation:
         for i in range(len(self.list_of_tick)):
             try:
                 ticker = self.list_of_tick[i][0]
-                crnt_val = quandl.get("SF0/"+str(ticker)+"_CURRENTRATIO_MRY", authtoken="ivu6KgaViZxoyqic7QkE")
+                crnt_val = quandl.get("SF0/" + str(ticker) + "_CURRENTRATIO_MRY", authtoken="ivu6KgaViZxoyqic7QkE")
                 with warnings.catch_warnings():
                     cr_mean_val = self.using_quandl(crnt_val)
 
@@ -154,16 +155,16 @@ class StockInformation:
         for i in range(len(self.list_of_tick)):
             try:
                 ticker = self.list_of_tick[i][0]
-                currasset_val = quandl.get("SF0/"+str(ticker)+"_ASSETSC_MRY", authtoken="ivu6KgaViZxoyqic7QkE")
-                ttldebt_val = quandl.get("SF0/"+str(ticker)+"_DEBT_MRY", authtoken="ivu6KgaViZxoyqic7QkE")
+                currasset_val = quandl.get("SF0/" + str(ticker) + "_ASSETSC_MRY", authtoken="ivu6KgaViZxoyqic7QkE")
+                ttldebt_val = quandl.get("SF0/" + str(ticker) + "_DEBT_MRY", authtoken="ivu6KgaViZxoyqic7QkE")
 
                 with warnings.catch_warnings():
-                    ca_mean_val = self.using_quandl(currasset_val) # Avg. of the current assets (approx. 5 years)
-                    td_mean_val = self.using_quandl(ttldebt_val) # Avg. of the total debt (approx. 5 years)
+                    ca_mean_val = self.using_quandl(currasset_val)  # Avg. of the current assets (approx. 5 years)
+                    td_mean_val = self.using_quandl(ttldebt_val)  # Avg. of the total debt (approx. 5 years)
 
                     # When values in QUANDL are n/a, they will output True when computing their mean...
                     if ((ca_mean_val != True) or (td_mean_val != True)):
-                        debtasset_val = ca_mean_val/td_mean_val # the ratio of Total Debt to Current Asset Ratio. Hence, DA...
+                        debtasset_val = ca_mean_val / td_mean_val  # the ratio of Total Debt to Current Asset Ratio. Hence, DA...
                         self.db_validate(debtasset_val, ticker, "DebtAsset")
 
             except quandl_errors:
@@ -173,16 +174,16 @@ class StockInformation:
         for i in range(len(self.list_of_tick)):
             try:
                 ticker = self.list_of_tick[i][0]
-                ttlequity_val = quandl.get("SF0/"+str(ticker)+"_EQUITY_MRY", authtoken="ivu6KgaViZxoyqic7QkE")
-                ttldebt_val = quandl.get("SF0/"+str(ticker)+"_DEBT_MRY", authtoken="ivu6KgaViZxoyqic7QkE")
+                ttlequity_val = quandl.get("SF0/" + str(ticker) + "_EQUITY_MRY", authtoken="ivu6KgaViZxoyqic7QkE")
+                ttldebt_val = quandl.get("SF0/" + str(ticker) + "_DEBT_MRY", authtoken="ivu6KgaViZxoyqic7QkE")
 
                 with warnings.catch_warnings():
-                    te_mean_val = self.using_quandl(ttlequity_val) # Avg. of the current assets (approx. 5 years)
-                    td_mean_val = self.using_quandl(ttldebt_val) # Avg. of the total debt (approx. 5 years)
+                    te_mean_val = self.using_quandl(ttlequity_val)  # Avg. of the current assets (approx. 5 years)
+                    td_mean_val = self.using_quandl(ttldebt_val)  # Avg. of the total debt (approx. 5 years)
 
                     # When values in QUANDL are n/a, they will output True when computing their mean...
                     if ((td_mean_val != True) or (te_mean_val != True)):
-                        debtequity_val = td_mean_val/te_mean_val # Ratio of Total Debt to Current Asset Ratio. Hence, DA...
+                        debtequity_val = td_mean_val / te_mean_val  # Ratio of Total Debt to Current Asset Ratio. Hence, DA...
                         self.db_validate(debtequity_val, ticker, "DebtEquity")
 
             except quandl_errors:
@@ -217,31 +218,29 @@ class StockInformation:
         for i in range(len(self.list_of_tick)):
             try:
                 ticker = self.list_of_tick[i][0]
-                EPS = quandl.get("SF0/"+str(ticker)+"_EPS_MRY", authtoken="ivu6KgaViZxoyqic7QkE")
+                EPS = quandl.get("SF0/" + str(ticker) + "_EPS_MRY", authtoken="ivu6KgaViZxoyqic7QkE")
 
                 with warnings.catch_warnings():
                     warnings.simplefilter("ignore", category=RuntimeWarning)
 
-                    for j in range((len(EPS.values)-1), -1, -1):
+                    for j in range((len(EPS.values) - 1), -1, -1):
                         if (EPS.values[j] > 0):
                             current_year = EPS.values[j]
                             break
-
-
 
                     for k in range(len(EPS.values)):
                         if (EPS.values[k] > 0):
                             last_avail_yr = EPS.values[k]
                             break
 
-                    for num in (num for num,x in enumerate(EPS.values) if x == current_year):
+                    for num in (num for num, x in enumerate(EPS.values) if x == current_year):
                         pos_current_yr = num
-                    for num in ( num for num,x in enumerate(EPS.values) if x == last_avail_yr):
+                    for num in (num for num, x in enumerate(EPS.values) if x == last_avail_yr):
                         pos_last_yr = num
                     ttl_yrs = (pos_current_yr - pos_last_yr) + 1
-                    eps_growth_diff = current_year/last_avail_yr
-                    yrs_exponent = (1/float(ttl_yrs))
-                    eps_growth_growth = round(((eps_growth_diff ** yrs_exponent)-1)*100, 2)
+                    eps_growth_diff = current_year / last_avail_yr
+                    yrs_exponent = (1 / float(ttl_yrs))
+                    eps_growth_growth = round(((eps_growth_diff ** yrs_exponent) - 1) * 100, 2)
 
                     '''if eps_growth_growth != 0:
                         DB_Store = StockDATAbase(self.key_statistic[i][0], eps_growth_growth, "EPSGrowth") # storing into the database indivdiually
@@ -258,5 +257,6 @@ class StockInformation:
 
     def graham_lynch_metrics(self):
         specific_investing_calc(self.conn, self.stock_DB)
+
 
 StockInformation()

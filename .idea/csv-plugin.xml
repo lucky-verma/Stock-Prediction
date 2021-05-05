@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\DEV\Graham_Lynch_Project\grahamlynch\Storing_Stock_Statistics.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DEV\Graham_Lynch_Project\grahamlynch\userinterface\gui_for_stock.py">
           <value>
             <Attribute>
@@ -10,14 +17,14 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\grahamlynch\Storing_Stock_Statistics.py">
+        <entry key="\DEV\MachineLearningStocks-master\forward_sample.csv">
           <value>
             <Attribute>
-              <option name="separator" value=":" />
+              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\grahamlynch\metrics.py">
+        <entry key="\DEV\MachineLearningStocks-master\stock_prices.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

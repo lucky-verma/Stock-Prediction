@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32dde454-7e7b-4e0f-aa1e-e9151b826dc7" name="Default Changelist" comment="portfolio allocation init">
+      <change afterPath="$PROJECT_DIR$/DEV/.ipynb_checkpoints/5-Hierarchical-Risk-Parity-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/.ipynb_checkpoints/Machine_Learning_Asset_Allocation-checkpoint.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/5-Hierarchical-Risk-Parity.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/StockMetricFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/articles/EstimatingRiskTolerance.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/articles/RiskAversion.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/Database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/Storing_Stock_Statistics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/companylist.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/comparsions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/userinterface/StockMetricFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/userinterface/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/userinterface/generated_stock_picks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/userinterface/gui_for_stock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/userinterface/popups.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/userinterface/typical_features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/secwiki_tickers.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/stocks.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/MachineLearningStocks-master/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/MachineLearningStocks-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/MachineLearningStocks-master/backtesting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/MachineLearningStocks-master/current_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/MachineLearningStocks-master/download_historical_prices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/MachineLearningStocks-master/forward_sample.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/MachineLearningStocks-master/keystats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/MachineLearningStocks-master/parsing_keystats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/MachineLearningStocks-master/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/MachineLearningStocks-master/sp500_index.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/MachineLearningStocks-master/stock_prediction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/MachineLearningStocks-master/stock_prices.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/MachineLearningStocks-master/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/MachineLearningStocks-master/tests/test_datasets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/MachineLearningStocks-master/tests/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/MachineLearningStocks-master/tests/test_variables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/MachineLearningStocks-master/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/Machine_Learning_Asset_Allocation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/cookbook/1-RiskReturnModels.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/cookbook/2-Mean-Variance-Optimisation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/cookbook/3-Advanced-Mean-Variance-Optimisation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/cookbook/4-Black-Litterman-Allocation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/cookbook/5-Hierarchical-Risk-Parity.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/cookbook/data/spy_prices.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/cookbook/data/stock_prices.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/docs/About.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/docs/BlackLitterman.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/docs/Contributing.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/docs/ExpectedReturns.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/docs/FAQ.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/docs/GeneralEfficientFrontier.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/docs/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/docs/MeanVariance.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/docs/OtherOptimizers.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/docs/Plotting.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/docs/Postprocessing.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/docs/RiskModels.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/docs/Roadmap.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/docs/UserGuide.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/docs/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/docs/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/examples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/media/cla_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/media/conceptual_flowchart_v1-grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/media/conceptual_flowchart_v1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/media/conceptual_flowchart_v2-grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/media/conceptual_flowchart_v2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/media/corrplot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/media/corrplot_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/media/dendrogram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/media/ef_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/media/ef_scatter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/media/efficient_frontier.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/media/efficient_frontier_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/media/logo_v0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/media/logo_v1-grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/media/logo_v1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/media/weight_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/pipfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/poetry.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/pypfopt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/pypfopt/base_optimizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/pypfopt/black_litterman.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/pypfopt/cla.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/pypfopt/discrete_allocation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/pypfopt/efficient_frontier/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/pypfopt/efficient_frontier/efficient_cvar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/pypfopt/efficient_frontier/efficient_frontier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/pypfopt/efficient_frontier/efficient_semivariance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/pypfopt/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/pypfopt/expected_returns.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/pypfopt/hierarchical_portfolio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/pypfopt/objective_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/pypfopt/plotting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/pypfopt/risk_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/readthedocs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/tests/resources/spy_prices.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/tests/resources/stock_prices.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/tests/resources/weights_hrp.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/tests/test_base_optimizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/tests/test_black_litterman.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/tests/test_cla.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/tests/test_custom_objectives.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/tests/test_discrete_allocation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/tests/test_efficient_cvar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/tests/test_efficient_frontier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/tests/test_efficient_semivariance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/tests/test_expected_returns.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/tests/test_hrp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/tests/test_imports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/tests/test_objective_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/tests/test_plotting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/tests/test_risk_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PyPortfolioOpt/tests/utilities_for_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio Allocation/Machine_Learning_Asset_Allocation.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1p45Ig6N7KRE15EgNZr0sfkoCix" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../VAST/Projects/Transformers" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lucki\WORK\OFFICE\TandM\Stock-Prediction\Portfolio Allocation\" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32dde454-7e7b-4e0f-aa1e-e9151b826dc7" name="Default Changelist" comment="" />
+      <created>1614429443295</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614429443295</updated>
+    </task>
+    <task id="LOCAL-00001" summary="portfolio allocation init">
+      <created>1614429600192</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614429600192</updated>
+    </task>
+    <task id="LOCAL-00002" summary="portfolio allocation init">
+      <created>1614430849224</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614430849224</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Portfolio Allocation/PyPortfolioOpt" />
+    </ignored-roots>
+    <MESSAGE value="portfolio allocation init" />
+    <option name="LAST_COMMIT_MESSAGE" value="portfolio allocation init" />
+  </component>
+</project>

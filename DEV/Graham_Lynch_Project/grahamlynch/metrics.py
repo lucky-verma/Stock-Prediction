@@ -1,10 +1,11 @@
 from .comparsions import less_than_comparison
 from .comparsions import greater_than_comparison
 
+
 def specific_investing_calc(*args):
     conn, stocks_db = args
-    total_graham_pts = 9.0/4.0
-    total_lynch_pts = 9.0/3.0
+    total_graham_pts = 9.0 / 4.0
+    total_lynch_pts = 9.0 / 3.0
 
     less_or_greater(stocks_db, conn, "GrahamScore", "PE", 15, ">", total_graham_pts)
     less_or_greater(stocks_db, conn, "GrahamScore", "CurrentRatio", 1.5, "<", total_graham_pts)
@@ -16,8 +17,9 @@ def specific_investing_calc(*args):
     less_or_greater(stocks_db, conn, "LynchScore", "EPSGrowth", .1, ">", total_lynch_pts)
     less_or_greater(stocks_db, conn, "LynchScore", "EPSGrowth", .25, ">", total_lynch_pts)
 
+
 def less_or_greater(*args):
-    '''
+    """
     KEY defintions:
 
     col_of_investor:
@@ -31,7 +33,9 @@ def less_or_greater(*args):
     ttl_pts:
         The total score of the respective investor (a higher number means that its more risker, hence, it's more fitting for
         riskier investors who have a higher risk tolerance)
-    '''
+    """
+
+    # stocks_db, conn, "GrahamScore", "PE", 15, ">", total_graham_pts
 
     stock_db, conn, col_of_investor, col_cmpr, trshld_val, sign_cmpr, ttl_pts = args
     cmrp_parameters = [stock_db, conn, col_of_investor, col_cmpr, trshld_val, ttl_pts]
