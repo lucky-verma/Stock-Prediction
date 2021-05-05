@@ -1,0 +1,13 @@
+*.pyc 
+
+.DS_Store
+dist/
+grahamlynch.egg-info/
+Running-the-Code.png
+backup.py
+Database_Backup.py
+
+
+grahamlynch/**/*.pyc
+grahamlynch/__pycache__
+grahamlynch/userinterface/__pycache__
