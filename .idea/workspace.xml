@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32dde454-7e7b-4e0f-aa1e-e9151b826dc7" name="Default Changelist" comment="portfolio allocation init">
-      <change afterPath="$PROJECT_DIR$/DEV/UI/src/admin_dash.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/src/user_dash.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+    <list default="true" id="32dde454-7e7b-4e0f-aa1e-e9151b826dc7" name="Default Changelist" comment="riskProfile v0.1">
+      <change afterPath="$PROJECT_DIR$/DEV/PortfolioAllocation/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PortfolioAllocation/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PortfolioAllocation/.ipynb_checkpoints/out-checkpoint.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PortfolioAllocation/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PortfolioAllocation/Untitled1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PortfolioAllocation/out.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/cache/App1.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/cache/cache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/cache/dic.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/data/Equity_POC.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/data/NIFTY 50_day.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/data/NSE_check.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/data/NSE_no_shock.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/data/NSE_shock.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/data/quniq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/data/temp/tempValues.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/data/updated_EQ_POC.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/data/updated_EQ_POC_precovid.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/index constituents/industy_class_list.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/multi_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/pages/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/pages/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/pages/management.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/pages/multipage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/pages/portfolio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/pages/profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/UI/plotly_charts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/cache/App1.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/cache/cache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/cache/dic.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/.idea/Graham_Lynch_Project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/.idea/csv-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/StockMetricFile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/articles/EstimatingRiskTolerance.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/articles/RiskAversion.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/Database.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/Storing_Stock_Statistics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/companylist.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/comparsions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/metrics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/userinterface/StockMetricFile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/userinterface/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/userinterface/generated_stock_picks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/userinterface/gui_for_stock.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/userinterface/popups.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/grahamlynch/userinterface/typical_features.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DEV/UI/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/secwiki_tickers.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Graham_Lynch_Project/stocks.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV/UI/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/DEV/UI/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV/UI/src/admin_dash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV/UI/src/user_dash.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +79,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lucki\WORK\OFFICE\TandM\Stock-Prediction\Portfolio Allocation\" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lucki\WORK\OFFICE\TandM\VISE\Stock-Prediction\DEV\UI\pages" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -103,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614430849224</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="riskProfile v0.1">
+      <created>1623433078901</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623433078902</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +134,7 @@
       <path value="$PROJECT_DIR$/Portfolio Allocation/PyPortfolioOpt" />
     </ignored-roots>
     <MESSAGE value="portfolio allocation init" />
-    <option name="LAST_COMMIT_MESSAGE" value="portfolio allocation init" />
+    <MESSAGE value="riskProfile v0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="riskProfile v0.1" />
   </component>
 </project>
