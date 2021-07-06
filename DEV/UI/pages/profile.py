@@ -180,7 +180,7 @@ def app1(prev_vars):  # First page
             print(e)
 
         # local generated values
-        print(riskScores)
+        # print(riskScores)
         totalRiskScore = sum(riskScores.values())
 
         # Risk Profile brackets
@@ -210,7 +210,7 @@ def app1(prev_vars):  # First page
             tempExpReturnsScore = 1
             tempMaxDrawScore = 1
 
-        print(totalRiskScore, finalRiskProfile)
+        # print(totalRiskScore, finalRiskProfile)
 
         # Auto Populated Section (Can be altered)
         with st.spinner("Loading ..."):
@@ -229,11 +229,13 @@ def app1(prev_vars):  # First page
 
     st.markdown("***")
     if st.button("Generate Portfolio..."):
-        st.success("Profile generated")
-        save(var_list=[name, age, investAmount, duration, investFor, anticipate, investKnowledge, secure,
-                       totalInvest, totalRiskScore, finalRiskProfile, expReturns, tempMaxDrawScore], name="App1",
-             page_names=["Generated Portfolio", "Portfolio Management",
-                         "Admin Panel"])  # Saves the variables to be used on the second, third & fourth pages.
+        st.spinner()
+        with st.spinner(text='Processing...'):
+            st.success("Profile Saved")
+            save(var_list=[name, age, investAmount, duration, investFor, anticipate, investKnowledge, secure,
+                           totalInvest, totalRiskScore, finalRiskProfile, expReturns, tempMaxDrawScore], name="App1",
+                 page_names=["Generated Portfolio", "Portfolio Management",
+                             "Admin Panel"])  # Saves the variables to be used on the second, third & fourth pages.
         ######
 
     # Shows how to set placeholders based on a selection

@@ -64,8 +64,8 @@ def order_func_nb(oc, weights):
     )
 
 
-def backTest(shock, freq):
-    print("Scenario - " + shock, str(freq) + " Days ")
+def backTest(shock, freq, prev_vars):
+    print("Scenario - " + shock, '; Rebalance Frequency - ', str(freq) + " Days ")
     # Loading data
     industry = pd.read_excel('index constituents/industy_class_list.xlsx', index_col=0, engine='openpyxl')
 
@@ -100,12 +100,21 @@ def backTest(shock, freq):
 
     del clusters['Symbol']
 
+    if prev_vars[-3] == 'Balanced':
+        const_weights = [0.06, 0.3, 0.3]
+    elif prev_vars[-3] == 'Conservative':
+        const_weights = [0.06, 0.3, 0.3]
+    elif prev_vars[-3] == 'Moderate':
+        const_weights = [0.06, 0.3, 0.3]
+    else:
+        const_weights = [0.05, 0.4, 0.4]
+
     constraints = {'Disabled': [False, False, False],
                    'Type': ['All Assets', 'All Classes', 'All Classes'],
                    'Set': ['', 'Clusters', 'Industry'],
                    'Position': ['', '', ''],
                    'Sign': ['<=', '<=', '<='],
-                   'Weight': [0.05, 0.4, 0.4],
+                   'Weight': const_weights,
                    'Type Relative': ['', '', ''],
                    'Relative Set': ['', '', ''],
                    'Relative': ['', '', ''],
@@ -234,9 +243,25 @@ def backTest(shock, freq):
     # models = ["Classic"] * 10  # + ["HRP", 'HERC']
     # objs = ["MinRisk"] * 5 + ["Sharpe"] * 5  # + ["HC"]*2
 
-    rms = ["MV"] * 2
-    models = ["Classic"] * 2
-    objs = ["MinRisk"] + ["Sharpe"]
+    rms = []
+    models = []
+    objs = []
+
+    print(prev_vars[-3])
+    print()
+
+    if prev_vars[-3] == 'Assertive':
+        rms = ["MV"] * 2
+        models = ["Classic"] * 2
+        objs = ["MinRisk"] + ["Sharpe"]
+    elif prev_vars[-3] == 'Aggressive':
+        rms = ["MV"] * 2
+        models = ["Classic"] * 2
+        objs = ["MinRisk"] + ["Sharpe"]
+    else:
+        rms = ["MSV", "CVaR"]
+        models = ["Classic"] * 2
+        objs = ["MinRisk"] + ["Sharpe"]
 
     sharpe = {}
     portfolio = {}
@@ -280,8 +305,8 @@ def backTest(shock, freq):
         weights[k + "-" + j + "-" + i] = w
 
     values.columns = ['Your Portfolio', 'Your PortFolio']
+    print("-- Contraints : ", const_weights)
     stats.columns = zip(objs, models, rms)
-
 
     data_NSE_2 = data_NSE.reindex(values.index).fillna(method='ffill')
     data_NSE_2 = data_NSE_2.to_frame()

@@ -2,40 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32dde454-7e7b-4e0f-aa1e-e9151b826dc7" name="Default Changelist" comment="riskProfile v0.1">
-      <change afterPath="$PROJECT_DIR$/DEV/PortfolioAllocation/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/PortfolioAllocation/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/PortfolioAllocation/.ipynb_checkpoints/out-checkpoint.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/PortfolioAllocation/Untitled.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/PortfolioAllocation/Untitled1.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/PortfolioAllocation/out.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/cache/App1.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/cache/cache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/cache/dic.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/data/Equity_POC.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/data/NIFTY 50_day.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/data/NSE_check.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/data/NSE_no_shock.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/data/NSE_shock.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/data/quniq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/data/temp/tempValues.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/data/updated_EQ_POC.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/data/updated_EQ_POC_precovid.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/index constituents/industy_class_list.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/multi_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/pages/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/pages/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/pages/management.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/pages/multipage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/pages/portfolio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/pages/profile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/UI/plotly_charts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/cache/App1.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/cache/cache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/cache/dic.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PortfolioAllocation/5-Hierarchical-Risk-Parity.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEV/PortfolioAllocation/Machine_Learning_Asset_Allocation.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/UI/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/DEV/UI/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/UI/src/admin_dash.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/UI/src/user_dash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV/5-Hierarchical-Risk-Parity.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV/Machine_Learning_Asset_Allocation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV/UI/pages/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/DEV/UI/pages/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV/UI/pages/portfolio.py" beforeDir="false" afterPath="$PROJECT_DIR$/DEV/UI/pages/portfolio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV/UI/pages/profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/DEV/UI/pages/profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEV/cache/App1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/DEV/cache/App1.pkl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +55,7 @@
       <recent name="C:\Users\lucki\WORK\OFFICE\TandM\Stock-Prediction\Portfolio Allocation\" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lucki\WORK\OFFICE\TandM\VISE\Stock-Prediction\DEV\UI\utils" />
       <recent name="C:\Users\lucki\WORK\OFFICE\TandM\VISE\Stock-Prediction\DEV\UI\pages" />
     </key>
   </component>
@@ -113,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623433078902</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Pre-Alpha 2 profiles">
+      <created>1624591923331</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624591923331</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +118,7 @@
     </ignored-roots>
     <MESSAGE value="portfolio allocation init" />
     <MESSAGE value="riskProfile v0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="riskProfile v0.1" />
+    <MESSAGE value="Pre-Alpha 2 profiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pre-Alpha 2 profiles" />
   </component>
 </project>
