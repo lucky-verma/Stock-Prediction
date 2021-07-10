@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32dde454-7e7b-4e0f-aa1e-e9151b826dc7" name="Default Changelist" comment="riskProfile v0.1">
-      <change afterPath="$PROJECT_DIR$/DEV/PortfolioAllocation/5-Hierarchical-Risk-Parity.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEV/PortfolioAllocation/Machine_Learning_Asset_Allocation.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/5-Hierarchical-Risk-Parity.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/Machine_Learning_Asset_Allocation.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/UI/pages/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/DEV/UI/pages/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/UI/pages/portfolio.py" beforeDir="false" afterPath="$PROJECT_DIR$/DEV/UI/pages/portfolio.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DEV/UI/pages/profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/DEV/UI/pages/profile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DEV/cache/App1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/DEV/cache/App1.pkl" afterDir="false" />
     </list>
@@ -96,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624591923331</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="4 profile int.">
+      <created>1625551361288</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625551361288</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +120,7 @@
     <MESSAGE value="portfolio allocation init" />
     <MESSAGE value="riskProfile v0.1" />
     <MESSAGE value="Pre-Alpha 2 profiles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pre-Alpha 2 profiles" />
+    <MESSAGE value="4 profile int." />
+    <option name="LAST_COMMIT_MESSAGE" value="4 profile int." />
   </component>
 </project>
