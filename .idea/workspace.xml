@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32dde454-7e7b-4e0f-aa1e-e9151b826dc7" name="Default Changelist" comment="riskProfile v0.1">
+      <change afterPath="$PROJECT_DIR$/standford/CS230" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/UI/pages/profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/DEV/UI/pages/profile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEV/cache/App1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/DEV/cache/App1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/standford/CS230/ARIMA_MSFT.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/standford/CS230/ARIMA_MSFT.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
